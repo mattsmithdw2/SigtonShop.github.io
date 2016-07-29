@@ -9,9 +9,9 @@
   margin: 0px;
   padding: 0px;
   font-family: 'helvetica neue', 'arial', sans-serif;
+  text-align: center;
 }
 nav{
-  text-align: center;
   font-size: 18px; 
   margin: 10px;
 }
@@ -66,7 +66,7 @@ button{
 <main>
 Hello! Hopefully you came from <a href="https://scratch.mit.edu/discuss/topic/158252/" target="_blank">
   here</a>. If not, go there and order something! If you have recieved an order number, type it in below to get your order!<br/>
-  <input placeholder="xxxx" type="number"/><button class="order-button">Search!</button><div id="out"></div>
+  <input placeholder="xxxx" type="number" id="in" onload="this.value = location.hash.slice(1);" /><button class="order-button">Search!</button><div id="out"></div>
 </main>
 </body>
 </html>
