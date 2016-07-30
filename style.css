@@ -7,7 +7,8 @@ body, html{
 	text-align: center;
 	
 }
-nav{
+
+.title{
 	
 	font-size: 18px; 
 	margin: 10px;
@@ -36,12 +37,12 @@ a {
 	
 }
 
-  main{
+main{
 	  
 	font-family: "Kristen ITC";
-    margin: 5px;
+	margin: 5px;
 	
-  }
+}
   
 input{
 	
@@ -71,6 +72,29 @@ button{
 	width: 900px;
 	height: 1000px;
 	margin: auto;
-	background-color: #CCCCCC;
+	background-color: #CCC;
 	padding-top: 5px;
+}
+
+.navigation {
+	
+	list-style: none;
+	padding: 10px;
+	background-color: #AAA;
+	text-align: left;
+	
+}
+
+.navigation li {
+	
+	display: inline-block;
+	padding: 10px;
+	background-color: #888;
+	
+}
+
+.navigation li a {
+	
+	color: #000;
+	
 }
