@@ -8,6 +8,32 @@ body, html{
 	
 }
 
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li:not(.link){
+    padding: 20px 15px;
+}
+nav ul li:hover{
+    background-color: rgba(255,255,255,.8);
+    cursor: pointer;
+}
+nav {
+    background-color: #f2f2f2;
+}
+nav ul li a{
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #8e0000;
+}
+
+
+
 .title{
 	
 	font-size: 18px; 
@@ -73,28 +99,4 @@ button{
 	margin: auto;
 	background-color: #CCC;
 	padding-top: 5px;
-}
-
-.navigation {
-	
-	list-style: none;
-	padding: 10px;
-	background-color: #AAA;
-	text-align: left;
-	
-}
-
-.navigation li {
-	
-	display: inline-block;
-	padding: 10px;
-	background-color: #888;
-	font-family: "Kristen ITC";
-	
-}
-
-.navigation li a {
-	
-	color: #000;
-	
 }
