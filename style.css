@@ -1,85 +1,91 @@
 body, html{
-	
-	background-color: #fff;
+
+	background-color: White;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'helvetica neue', 'arial', sans-serif;
 	text-align: center;
-	
+
 }
 
-nav ul{
-    list-style: none;
-    margin: 0;
+.active {
+background-color: #0495C4;
+color: white;
 }
-nav ul li{
-    display: inline-block;
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #08C2FF;
 }
-nav ul li:not(.link){
-    padding: 20px 15px;
+
+li {
+float: left;
 }
-nav ul li:hover{
-    background-color: rgba(255,255,255,.8);
-    cursor: pointer;
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
-nav {
-    background-color: #f2f2f2;
-}
-nav ul li a{
-    display: block;
-    padding: 20px 15px;
-    text-decoration: none;
-    color: #8e0000;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
 }
 
 
 
 .title{
-	
+
 	font-size: 18px; 
 	margin: 10px;
-	
+
 }
 
 .fancy{
-	
+
 	font-family: Magneto, "Blackadder ITC"; 
 	font-size: 50px;
-	
+
 }
 
 .important{
-	
+
 	background-color: pink; 
     text-align : center;
     margin-top: 5px;
 }
   
 a {
-	
+
 	text-decoration: none;
 	color: blue;
-	
+
 }
 
 main{
-	  
+
 	font-family: "Kristen ITC";
 	margin: 5px;
-	
+
 }
   
 input{
-	
+
 	border-radius: 10px;
 	border-color: blue;
 	height: 20px;
 	padding-left: 5px;
-	
+
 }
 
 button{
-	
+
 	border-radius: 10px;
 	border-color: black;
 	background-color: white;
@@ -87,17 +93,17 @@ button{
 }
 
 .small{
-	
+
 	font-size: 15px;
-	
+
 }
 
 .container {
-	
+
 	width: 900px;
 	height: 1200px;
 	margin: auto;
-	background-color: #CCC;
+	background-color: White;
 	padding-top: 5px;
 }
 
